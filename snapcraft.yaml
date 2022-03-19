@@ -1,0 +1,23 @@
+name: Deepin_V
+version: 1.0.10
+summary: Flutter Demo Counter Application
+description: A demo of Counter Application using Flutter
+confinement: strict
+base: core18
+grade: stable
+icon: images/deepin.jpg
+
+
+apps:
+   counter:
+     command: Deepin-V
+     extensions: [flutter-master]
+     plugs:
+       - network
+       - desktop
+
+parts:
+  counter:
+    source: .
+    plugin: flutter
+    flutter-target: lib/main.dart # The main entry-point file of the application

@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -44,62 +44,72 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
 # =============================================================================
-# Object build statements for EXECUTABLE target deepinapp
+# Object build statements for EXECUTABLE target deepin
 
 
 #############################################
-# Order-only phony target for deepinapp
+# Order-only phony target for deepin
 
-build cmake_object_order_depends_target_deepinapp: phony || cmake_object_order_depends_target_bitsdojo_window_linux_plugin cmake_object_order_depends_target_url_launcher_linux_plugin flutter/flutter_assemble
-build CMakeFiles/deepinapp.dir/main.cc.o: CXX_COMPILER__deepinapp /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/main.cc || cmake_object_order_depends_target_deepinapp
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\"
-  DEP_FILE = CMakeFiles/deepinapp.dir/main.cc.o.d
+build cmake_object_order_depends_target_deepin: phony || cmake_object_order_depends_target_url_launcher_linux_plugin flutter/flutter_assemble
+build CMakeFiles/deepin.dir/main.cc.o: CXX_COMPILER__deepin /home/sony/Desktop/Deepin$ company/deepin_V1/linux/main.cc || cmake_object_order_depends_target_deepin
+  DEFINES = -DAPPLICATION_ID=\"com.example.deepin\"
+  DEP_FILE = CMakeFiles/deepin.dir/main.cc.o.d
   FLAGS = -g   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/include" -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include"
-  OBJECT_DIR = CMakeFiles/deepinapp.dir
-  OBJECT_FILE_DIR = CMakeFiles/deepinapp.dir
-build CMakeFiles/deepinapp.dir/my_application.cc.o: CXX_COMPILER__deepinapp /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/my_application.cc || cmake_object_order_depends_target_deepinapp
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\"
-  DEP_FILE = CMakeFiles/deepinapp.dir/my_application.cc.o.d
+  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include -I"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include"
+  OBJECT_DIR = CMakeFiles/deepin.dir
+  OBJECT_FILE_DIR = CMakeFiles/deepin.dir
+build CMakeFiles/deepin.dir/my_application.cc.o: CXX_COMPILER__deepin /home/sony/Desktop/Deepin$ company/deepin_V1/linux/my_application.cc || cmake_object_order_depends_target_deepin
+  DEFINES = -DAPPLICATION_ID=\"com.example.deepin\"
+  DEP_FILE = CMakeFiles/deepin.dir/my_application.cc.o.d
   FLAGS = -g   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/include" -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include"
-  OBJECT_DIR = CMakeFiles/deepinapp.dir
-  OBJECT_FILE_DIR = CMakeFiles/deepinapp.dir
-build CMakeFiles/deepinapp.dir/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__deepinapp /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_deepinapp
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\"
-  DEP_FILE = CMakeFiles/deepinapp.dir/flutter/generated_plugin_registrant.cc.o.d
+  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include -I"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include"
+  OBJECT_DIR = CMakeFiles/deepin.dir
+  OBJECT_FILE_DIR = CMakeFiles/deepin.dir
+build CMakeFiles/deepin.dir/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__deepin /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_deepin
+  DEFINES = -DAPPLICATION_ID=\"com.example.deepin\"
+  DEP_FILE = CMakeFiles/deepin.dir/flutter/generated_plugin_registrant.cc.o.d
   FLAGS = -g   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/include" -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include"
-  OBJECT_DIR = CMakeFiles/deepinapp.dir
-  OBJECT_FILE_DIR = CMakeFiles/deepinapp.dir/flutter
+  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include -I"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include"
+  OBJECT_DIR = CMakeFiles/deepin.dir
+  OBJECT_FILE_DIR = CMakeFiles/deepin.dir/flutter
 
 # =============================================================================
-# Link build statements for EXECUTABLE target deepinapp
+# Link build statements for EXECUTABLE target deepin
 
 
 #############################################
-# Link the executable intermediates_do_not_run/deepinapp
+# Link the executable intermediates_do_not_run/deepin
 
-build intermediates_do_not_run/deepinapp: CXX_EXECUTABLE_LINKER__deepinapp CMakeFiles/deepinapp.dir/main.cc.o CMakeFiles/deepinapp.dir/my_application.cc.o CMakeFiles/deepinapp.dir/flutter/generated_plugin_registrant.cc.o | plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so plugins/url_launcher_linux/liburl_launcher_linux_plugin.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so || flutter/flutter_assemble plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+build intermediates_do_not_run/deepin: CXX_EXECUTABLE_LINKER__deepin CMakeFiles/deepin.dir/main.cc.o CMakeFiles/deepin.dir/my_application.cc.o CMakeFiles/deepin.dir/flutter/generated_plugin_registrant.cc.o | plugins/url_launcher_linux/liburl_launcher_linux_plugin.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so || flutter/flutter_assemble plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
   FLAGS = -g
   LINK_FLAGS = -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -lblkid -lgcrypt -llzma -lpthread -ldl -L/snap/flutter/current/usr/lib/
-  LINK_LIBRARIES = -Wl,-rpath,"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/bitsdojo_window_linux:/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/url_launcher_linux:/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral:" plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so plugins/url_launcher_linux/liburl_launcher_linux_plugin.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so
-  OBJECT_DIR = CMakeFiles/deepinapp.dir
+  LINK_LIBRARIES = -Wl,-rpath,"/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/plugins/url_launcher_linux:/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral:" plugins/url_launcher_linux/liburl_launcher_linux_plugin.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so "/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+  OBJECT_DIR = CMakeFiles/deepin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = intermediates_do_not_run/deepinapp
-  TARGET_PDB = deepinapp.dbg
+  TARGET_FILE = intermediates_do_not_run/deepin
+  TARGET_PDB = deepin.dbg
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+build install: phony CMakeFiles/install.util
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -H"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux" -B"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug"
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -H"/home/sony/Desktop/Deepin company/deepin_V1/linux" -B"/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -114,24 +124,14 @@ build list_install_components: phony
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 build install/local: phony CMakeFiles/install/local.util
-
-#############################################
-# Utility command for install
-
-build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug" && /snap/flutter/111/usr/bin/cmake -P cmake_install.cmake
-  DESC = Install the project...
-  pool = console
-  restat = 1
-build install: phony CMakeFiles/install.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/CMakeLists.txt
+# /home/sony/Desktop/Deepin company/deepin_V1/linux/CMakeLists.txt
 # =============================================================================
 
 
@@ -139,7 +139,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/strip
 
 build flutter/CMakeFiles/install/strip.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -149,7 +149,7 @@ build flutter/install/strip: phony flutter/CMakeFiles/install/strip.util
 # Utility command for install/local
 
 build flutter/CMakeFiles/install/local.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -158,13 +158,13 @@ build flutter/install/local: phony flutter/CMakeFiles/install/local.util
 #############################################
 # Utility command for flutter_assemble
 
-build flutter/flutter_assemble: phony flutter/CMakeFiles/flutter_assemble /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_
+build flutter/flutter_assemble: phony flutter/CMakeFiles/flutter_assemble /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_
 
 #############################################
 # Utility command for edit_cache
 
 build flutter/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build flutter/edit_cache: phony flutter/CMakeFiles/edit_cache.util
@@ -173,7 +173,7 @@ build flutter/edit_cache: phony flutter/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build flutter/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -H"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux" -B"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug"
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -H"/home/sony/Desktop/Deepin company/deepin_V1/linux" -B"/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -188,7 +188,7 @@ build flutter/list_install_components: phony
 # Utility command for install
 
 build flutter/CMakeFiles/install.util: CUSTOM_COMMAND flutter/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -197,153 +197,18 @@ build flutter/install: phony flutter/CMakeFiles/install.util
 #############################################
 # Phony custom command for flutter/CMakeFiles/flutter_assemble
 
-build flutter/CMakeFiles/flutter_assemble: phony /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/flutter_linux.h
+build flutter/CMakeFiles/flutter_assemble: phony /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h
 
 #############################################
-# Custom command for /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so
+# Custom command for /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so
 
-build /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -E env FLUTTER_ROOT=/home/sony/snap/flutter/common/flutter "PROJECT_DIR=/home/sony/Desktop/Deepin company/deepinapp/deepinapp" DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=/home/sony/Desktop/Deepin company/deepinapp/deepinapp/.dart_tool/package_config.json" "FLUTTER_TARGET=/home/sony/Desktop/Deepin company/deepinapp/deepinapp/lib/main.dart" /home/sony/snap/flutter/common/flutter/packages/flutter_tools/bin/tool_backend.sh linux-x64 Debug
-  DESC = Generating /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
+build /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_: CUSTOM_COMMAND
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/flutter" && /snap/flutter/111/usr/bin/cmake -E env FLUTTER_ROOT=/home/sony/snap/flutter/common/flutter "PROJECT_DIR=/home/sony/Desktop/Deepin company/deepin_V1" DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=/home/sony/Desktop/Deepin company/deepin_V1/.dart_tool/package_config.json" "FLUTTER_TARGET=/home/sony/Desktop/Deepin company/deepin_V1/lib/main.dart" /home/sony/snap/flutter/common/flutter/packages/flutter_tools/bin/tool_backend.sh linux-x64 Debug
+  DESC = Generating /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
   restat = 1
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/generated_plugins.cmake
-# =============================================================================
-
-
-#############################################
-# Utility command for install/strip
-
-build plugins/bitsdojo_window_linux/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/bitsdojo_window_linux/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/bitsdojo_window_linux" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-build plugins/bitsdojo_window_linux/install/strip: phony plugins/bitsdojo_window_linux/CMakeFiles/install/strip.util
-
-#############################################
-# Utility command for edit_cache
-
-build plugins/bitsdojo_window_linux/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/bitsdojo_window_linux" && /snap/flutter/111/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-build plugins/bitsdojo_window_linux/edit_cache: phony plugins/bitsdojo_window_linux/CMakeFiles/edit_cache.util
-
-#############################################
-# Utility command for rebuild_cache
-
-build plugins/bitsdojo_window_linux/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/bitsdojo_window_linux" && /snap/flutter/111/usr/bin/cmake -H"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux" -B"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-build plugins/bitsdojo_window_linux/rebuild_cache: phony plugins/bitsdojo_window_linux/CMakeFiles/rebuild_cache.util
-# =============================================================================
-# Object build statements for SHARED_LIBRARY target bitsdojo_window_linux_plugin
-
-
-#############################################
-# Order-only phony target for bitsdojo_window_linux_plugin
-
-build cmake_object_order_depends_target_bitsdojo_window_linux_plugin: phony || flutter/flutter_assemble
-build plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/debug_helper.cpp.o: CXX_COMPILER__bitsdojo_window_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/debug_helper.cpp || cmake_object_order_depends_target_bitsdojo_window_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Dbitsdojo_window_linux_plugin_EXPORTS
-  DEP_FILE = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/debug_helper.cpp.o.d
-  FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  OBJECT_FILE_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-build plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/gtk_utils.cpp.o: CXX_COMPILER__bitsdojo_window_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/gtk_utils.cpp || cmake_object_order_depends_target_bitsdojo_window_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Dbitsdojo_window_linux_plugin_EXPORTS
-  DEP_FILE = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/gtk_utils.cpp.o.d
-  FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  OBJECT_FILE_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-build plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_info.cpp.o: CXX_COMPILER__bitsdojo_window_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/window_info.cpp || cmake_object_order_depends_target_bitsdojo_window_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Dbitsdojo_window_linux_plugin_EXPORTS
-  DEP_FILE = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_info.cpp.o.d
-  FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  OBJECT_FILE_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-build plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_impl.cpp.o: CXX_COMPILER__bitsdojo_window_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/window_impl.cpp || cmake_object_order_depends_target_bitsdojo_window_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Dbitsdojo_window_linux_plugin_EXPORTS
-  DEP_FILE = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_impl.cpp.o.d
-  FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  OBJECT_FILE_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-build plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api_impl.cpp.o: CXX_COMPILER__bitsdojo_window_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/api_impl.cpp || cmake_object_order_depends_target_bitsdojo_window_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Dbitsdojo_window_linux_plugin_EXPORTS
-  DEP_FILE = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api_impl.cpp.o.d
-  FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  OBJECT_FILE_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-build plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api.cpp.o: CXX_COMPILER__bitsdojo_window_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/api.cpp || cmake_object_order_depends_target_bitsdojo_window_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Dbitsdojo_window_linux_plugin_EXPORTS
-  DEP_FILE = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api.cpp.o.d
-  FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  OBJECT_FILE_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-build plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/bitsdojo_window_plugin.cpp.o: CXX_COMPILER__bitsdojo_window_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/bitsdojo_window_plugin.cpp || cmake_object_order_depends_target_bitsdojo_window_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Dbitsdojo_window_linux_plugin_EXPORTS
-  DEP_FILE = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/bitsdojo_window_plugin.cpp.o.d
-  FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  OBJECT_FILE_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-
-# =============================================================================
-# Link build statements for SHARED_LIBRARY target bitsdojo_window_linux_plugin
-
-
-#############################################
-# Link the shared library plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so
-
-build plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__bitsdojo_window_linux_plugin plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/debug_helper.cpp.o plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/gtk_utils.cpp.o plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_info.cpp.o plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_impl.cpp.o plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api_impl.cpp.o plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api.cpp.o plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/bitsdojo_window_plugin.cpp.o | /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so || flutter/flutter_assemble
-  LANGUAGE_COMPILE_FLAGS = -g
-  LINK_FLAGS = -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -lblkid -lgcrypt -llzma -lpthread -ldl -L/snap/flutter/current/usr/lib/
-  LINK_LIBRARIES = -Wl,-rpath,"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so
-  OBJECT_DIR = plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  SONAME = libbitsdojo_window_linux_plugin.so
-  SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so
-  TARGET_PDB = bitsdojo_window_linux_plugin.so.dbg
-
-#############################################
-# Utility command for list_install_components
-
-build plugins/bitsdojo_window_linux/list_install_components: phony
-
-#############################################
-# Utility command for install/local
-
-build plugins/bitsdojo_window_linux/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/bitsdojo_window_linux/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/bitsdojo_window_linux" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-build plugins/bitsdojo_window_linux/install/local: phony plugins/bitsdojo_window_linux/CMakeFiles/install/local.util
-
-#############################################
-# Utility command for install
-
-build plugins/bitsdojo_window_linux/CMakeFiles/install.util: CUSTOM_COMMAND plugins/bitsdojo_window_linux/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/bitsdojo_window_linux" && /snap/flutter/111/usr/bin/cmake -P cmake_install.cmake
-  DESC = Install the project...
-  pool = console
-  restat = 1
-build plugins/bitsdojo_window_linux/install: phony plugins/bitsdojo_window_linux/CMakeFiles/install.util
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/generated_plugins.cmake
+# /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/generated_plugins.cmake
 # =============================================================================
 
 
@@ -351,7 +216,7 @@ build plugins/bitsdojo_window_linux/install: phony plugins/bitsdojo_window_linux
 # Utility command for install/strip
 
 build plugins/url_launcher_linux/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -361,7 +226,7 @@ build plugins/url_launcher_linux/install/strip: phony plugins/url_launcher_linux
 # Utility command for edit_cache
 
 build plugins/url_launcher_linux/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build plugins/url_launcher_linux/edit_cache: phony plugins/url_launcher_linux/CMakeFiles/edit_cache.util
@@ -373,11 +238,11 @@ build plugins/url_launcher_linux/edit_cache: phony plugins/url_launcher_linux/CM
 # Order-only phony target for url_launcher_linux_plugin
 
 build cmake_object_order_depends_target_url_launcher_linux_plugin: phony || flutter/flutter_assemble
-build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o: CXX_COMPILER__url_launcher_linux_plugin /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/url_launcher_plugin.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
-  DEFINES = -DAPPLICATION_ID=\"com.example.deepinapp\" -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
+build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o: CXX_COMPILER__url_launcher_linux_plugin /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/url_launcher_plugin.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
+  DEFINES = -DAPPLICATION_ID=\"com.example.deepin\" -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
   DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o.d
   FLAGS = -g -fPIC -fvisibility=hidden   -Wall -Werror -pthread -std=gnu++14
-  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
+  INCLUDES = -I"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral" -isystem /snap/flutter/current/usr/include/gtk-3.0 -isystem /snap/flutter/current/usr/include/at-spi2-atk/2.0 -isystem /snap/flutter/current/usr/include/at-spi-2.0 -isystem /snap/flutter/current/usr/include/dbus-1.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/dbus-1.0/include -isystem /snap/flutter/current/usr/include/gio-unix-2.0 -isystem /snap/flutter/current/usr/include/cairo -isystem /snap/flutter/current/usr/include/pango-1.0 -isystem /snap/flutter/current/usr/include/harfbuzz -isystem /snap/flutter/current/usr/include/atk-1.0 -isystem /snap/flutter/current/usr/include/pixman-1 -isystem /snap/flutter/current/usr/include/freetype2 -isystem /snap/flutter/current/usr/include/libpng16 -isystem /snap/flutter/current/usr/include/gdk-pixbuf-2.0 -isystem /snap/flutter/current/usr/include/glib-2.0 -isystem /snap/flutter/current/usr/lib/x86_64-linux-gnu/glib-2.0/include
   OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
   OBJECT_FILE_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
 
@@ -388,10 +253,10 @@ build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_la
 #############################################
 # Link the shared library plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 
-build plugins/url_launcher_linux/liburl_launcher_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__url_launcher_linux_plugin plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o | /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so || flutter/flutter_assemble
+build plugins/url_launcher_linux/liburl_launcher_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__url_launcher_linux_plugin plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o | /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so || flutter/flutter_assemble
   LANGUAGE_COMPILE_FLAGS = -g
   LINK_FLAGS = -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -lblkid -lgcrypt -llzma -lpthread -ldl -L/snap/flutter/current/usr/lib/
-  LINK_LIBRARIES = -Wl,-rpath,"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+  LINK_LIBRARIES = -Wl,-rpath,"/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgtk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk-3.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libpango-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libatk-1.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo-gobject.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libcairo.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so "/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so" /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgio-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libgobject-2.0.so /snap/flutter/current/usr/lib/x86_64-linux-gnu/libglib-2.0.so
   OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -409,7 +274,7 @@ build plugins/url_launcher_linux/list_install_components: phony
 # Utility command for install/local
 
 build plugins/url_launcher_linux/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -419,7 +284,7 @@ build plugins/url_launcher_linux/install/local: phony plugins/url_launcher_linux
 # Utility command for rebuild_cache
 
 build plugins/url_launcher_linux/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -H"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux" -B"/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug"
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -H"/home/sony/Desktop/Deepin company/deepin_V1/linux" -B"/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -429,7 +294,7 @@ build plugins/url_launcher_linux/rebuild_cache: phony plugins/url_launcher_linux
 # Utility command for install
 
 build plugins/url_launcher_linux/CMakeFiles/install.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
-  COMMAND = cd "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/plugins/url_launcher_linux" && /snap/flutter/111/usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -437,10 +302,8 @@ build plugins/url_launcher_linux/install: phony plugins/url_launcher_linux/CMake
 # =============================================================================
 # Target aliases.
 
-build bitsdojo_window_linux_plugin: phony plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so
-build deepinapp: phony intermediates_do_not_run/deepinapp
+build deepin: phony intermediates_do_not_run/deepin
 build flutter_assemble: phony flutter/flutter_assemble
-build libbitsdojo_window_linux_plugin.so: phony plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so
 build liburl_launcher_linux_plugin.so: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 build url_launcher_linux_plugin: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 # =============================================================================
@@ -450,19 +313,13 @@ build url_launcher_linux_plugin: phony plugins/url_launcher_linux/liburl_launche
 # =============================================================================
 
 #############################################
-# Folder: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/flutter
+# Folder: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/flutter
 
 build  flutter/all: phony
 # =============================================================================
 
 #############################################
-# Folder: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/bitsdojo_window_linux
-
-build  plugins/bitsdojo_window_linux/all: phony bitsdojo_window_linux_plugin
-# =============================================================================
-
-#############################################
-# Folder: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/debug/plugins/url_launcher_linux
+# Folder: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/debug/plugins/url_launcher_linux
 
 build  plugins/url_launcher_linux/all: phony url_launcher_linux_plugin
 # =============================================================================
@@ -472,7 +329,7 @@ build  plugins/url_launcher_linux/all: phony url_launcher_linux_plugin
 #############################################
 # The main all target.
 
-build all: phony intermediates_do_not_run/deepinapp plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+build all: phony intermediates_do_not_run/deepin plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 
 #############################################
 # Make the all target the default.
@@ -482,13 +339,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/generated_config.cmake /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/generated_plugins.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPkgConfig.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/sony/Desktop/Deepin$ company/deepin_V1/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/generated_config.cmake /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/generated_plugins.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPkgConfig.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/bitsdojo_window_linux/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/ephemeral/generated_config.cmake /home/sony/Desktop/Deepin$ company/deepinapp/deepinapp/linux/flutter/generated_plugins.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPkgConfig.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
+build /home/sony/Desktop/Deepin$ company/deepin_V1/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/ephemeral/generated_config.cmake /home/sony/Desktop/Deepin$ company/deepin_V1/linux/flutter/generated_plugins.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeGenericSystem.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/Clang.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Compiler/GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPackageMessage.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/FindPkgConfig.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-Clang-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/Linux.cmake /snap/flutter/111/usr/share/cmake-3.10/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.

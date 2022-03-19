@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0.8
+Name=DeepinApp
+Comment=This Flutter Demo app
+Exec=counter
+Icon=${SNAP}/images/deepin.jpg
+Terminal=false
+Type=Application
+Categories=Utility;Application;

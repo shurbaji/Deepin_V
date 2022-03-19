@@ -36,9 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   screens: ^2.5.0
   font_awesome_flutter: ^9.2.0
-  bitsdojo_window: ^0.1.1+1
   carousel_slider: ^4.0.0
   url_launcher: ^6.0.20
+  url_launcher_web: ^2.0.9
 
 dev_dependencies:
   flutter_test:

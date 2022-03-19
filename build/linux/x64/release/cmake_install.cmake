@@ -1,8 +1,8 @@
-# Install script for directory: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux
+# Install script for directory: /home/sony/Desktop/Deepin company/deepin_V1/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,121 +39,108 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/")
+  file(REMOVE_RECURSE "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp")
+  if(EXISTS "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp"
+         FILE "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp")
+   "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle" TYPE EXECUTABLE FILES "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/intermediates_do_not_run/deepinapp")
-  if(EXISTS "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp")
+file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle" TYPE EXECUTABLE FILES "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/intermediates_do_not_run/deepin")
+  if(EXISTS "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp"
-         OLD_RPATH "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/plugins/bitsdojo_window_linux:/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/plugins/url_launcher_linux:/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin"
+         OLD_RPATH "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/plugins/url_launcher_linux:/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/deepinapp")
+      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/deepin")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/data/icudtl.dat")
+   "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/data" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/icudtl.dat")
+file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/data" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib/libflutter_linux_gtk.so")
+   "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib/libbitsdojo_window_linux_plugin.so")
+   "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/lib/liburl_launcher_linux_plugin.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib/liburl_launcher_linux_plugin.so")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/plugins/url_launcher_linux/liburl_launcher_linux_plugin.so")
+file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/plugins/url_launcher_linux/liburl_launcher_linux_plugin.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/data/flutter_assets")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/data/flutter_assets")
+   "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/data" TYPE DIRECTORY FILES "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build//flutter_assets")
+file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/data" TYPE DIRECTORY FILES "/home/sony/Desktop/Deepin company/deepin_V1/build//flutter_assets")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib/libapp.so")
+   "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/lib/libapp.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/lib/libapp.so")
+file(INSTALL DESTINATION "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/sony/Desktop/Deepin company/deepin_V1/build/lib/libapp.so")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/flutter/cmake_install.cmake")
-  include("/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/plugins/bitsdojo_window_linux/cmake_install.cmake")
-  include("/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/plugins/url_launcher_linux/cmake_install.cmake")
+  include("/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/flutter/cmake_install.cmake")
+  include("/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/plugins/url_launcher_linux/cmake_install.cmake")
 
 endif()
 
@@ -165,5 +152,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

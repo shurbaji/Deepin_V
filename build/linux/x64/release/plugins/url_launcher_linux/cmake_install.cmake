@@ -1,8 +1,8 @@
-# Install script for directory: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux
+# Install script for directory: /home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

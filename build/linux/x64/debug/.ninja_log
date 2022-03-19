@@ -1,68 +1,110 @@
 # ninja log v5
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	27e1fe9e8ab2bf1f
-9070	9140	1647621561	plugins/url_launcher_linux/liburl_launcher_linux_plugin.so	8cb701a9cb296a00
-9429	20015	1647365858	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/gtk_utils.cpp.o	769536fbfd4adac1
-9210	9267	1647621561	plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so	643fffc4c0b8b0eb
-9429	19885	1647365858	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_info.cpp.o	4136e288ec9035a4
-9429	19896	1647365858	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api.cpp.o	1402cd0fc6a4ed2c
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	27e1fe9e8ab2bf1f
-9428	19884	1647365858	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/debug_helper.cpp.o	c0fe9289d12d6f12
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_engine.h	27e1fe9e8ab2bf1f
-8855	9156	1647621715	CMakeFiles/deepinapp.dir/my_application.cc.o	44de60b7f92188ba
-8604	9070	1647621561	plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o	b4b56f4731add1e4
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	27e1fe9e8ab2bf1f
-8850	9280	1647580627	CMakeFiles/deepinapp.dir/main.cc.o	22ac27b8bc97803f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	27e1fe9e8ab2bf1f
-9429	19979	1647365858	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api_impl.cpp.o	7514a02dbf3d46fb
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_value.h	27e1fe9e8ab2bf1f
-9156	9227	1647621715	intermediates_do_not_run/deepinapp	c1abb70960e7b0b8
-8855	9137	1647621715	CMakeFiles/deepinapp.dir/flutter/generated_plugin_registrant.cc.o	619a845e99918177
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_view.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so	27e1fe9e8ab2bf1f
-8604	9210	1647621561	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/bitsdojo_window_plugin.cpp.o	eeeb7e7291eab74f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	27e1fe9e8ab2bf1f
-8604	9194	1647621561	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_impl.cpp.o	c9aa7a8f234d5cc2
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	27e1fe9e8ab2bf1f
-2	8854	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/libflutter_linux_gtk.so	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_engine.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_value.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/fl_view.h	27e1fe9e8ab2bf1f
-38	9525	0	/home/sony/Desktop/Deepin company/deepinapp/deepinapp/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	27e1fe9e8ab2bf1f
-38	9525	0	flutter/_phony_	27e1fe9e8ab2bf1f
-9526	16841	1647631062	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api_impl.cpp.o	7514a02dbf3d46fb
-9526	16842	1647631062	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/api.cpp.o	1402cd0fc6a4ed2c
-9526	16842	1647631062	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/window_info.cpp.o	4136e288ec9035a4
-9526	16879	1647631062	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/debug_helper.cpp.o	c0fe9289d12d6f12
-9526	16892	1647631062	plugins/bitsdojo_window_linux/CMakeFiles/bitsdojo_window_linux_plugin.dir/gtk_utils.cpp.o	769536fbfd4adac1
-9526	16900	1647631062	CMakeFiles/deepinapp.dir/my_application.cc.o	44de60b7f92188ba
-9526	16900	1647631062	CMakeFiles/deepinapp.dir/flutter/generated_plugin_registrant.cc.o	619a845e99918177
-16892	17054	1647631062	plugins/bitsdojo_window_linux/libbitsdojo_window_linux_plugin.so	643fffc4c0b8b0eb
-17054	17244	1647631063	intermediates_do_not_run/deepinapp	c1abb70960e7b0b8
-17244	17341	0	CMakeFiles/install.util	344da9c3a4fa8765
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h	f56bd3cee952e5ee
+0	11059	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	f56bd3cee952e5ee
+0	11059	0	flutter/_phony_	f56bd3cee952e5ee
+11059	12214	1647671697	CMakeFiles/deepin.dir/main.cc.o	c5ea1bfdab7b794c
+11060	12243	1647671697	CMakeFiles/deepin.dir/flutter/generated_plugin_registrant.cc.o	b203c74dc1c8277e
+11060	12252	1647671697	plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o	11e1c1ac4dc015a6
+11060	12260	1647671697	CMakeFiles/deepin.dir/my_application.cc.o	2b66bbfdf0d6f509
+12253	12361	1647671697	plugins/url_launcher_linux/liburl_launcher_linux_plugin.so	a77e50bf0c18f5dc
+12361	12573	1647671697	intermediates_do_not_run/deepin	fd1b958d5b3efc5f
+12573	12666	0	CMakeFiles/install.util	9576205d56e131a8
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h	f56bd3cee952e5ee
+3	2614	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	f56bd3cee952e5ee
+3	2614	0	flutter/_phony_	f56bd3cee952e5ee
+2615	2930	1647671950	plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o	11e1c1ac4dc015a6
+2615	2991	1647671950	CMakeFiles/deepin.dir/flutter/generated_plugin_registrant.cc.o	b203c74dc1c8277e
+2930	3007	1647671950	plugins/url_launcher_linux/liburl_launcher_linux_plugin.so	a3dd6cdc364db80
+2614	3009	1647671950	CMakeFiles/deepin.dir/my_application.cc.o	2b66bbfdf0d6f509
+3009	3099	1647671951	intermediates_do_not_run/deepin	37644e8e75096821
+3099	3215	0	CMakeFiles/install.util	9576205d56e131a8
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h	f56bd3cee952e5ee
+1	10264	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	f56bd3cee952e5ee
+1	10264	0	flutter/_phony_	f56bd3cee952e5ee
+10264	10569	1647672053	CMakeFiles/deepin.dir/flutter/generated_plugin_registrant.cc.o	b203c74dc1c8277e
+10264	10573	1647672053	CMakeFiles/deepin.dir/my_application.cc.o	2b66bbfdf0d6f509
+10573	10674	1647672054	intermediates_do_not_run/deepin	37644e8e75096821
+10674	10780	0	CMakeFiles/install.util	9576205d56e131a8
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/libflutter_linux_gtk.so	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_engine.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_value.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/fl_view.h	f56bd3cee952e5ee
+1	10733	0	/home/sony/Desktop/Deepin company/deepin_V1/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	f56bd3cee952e5ee
+1	10733	0	flutter/_phony_	f56bd3cee952e5ee
+10734	11050	1647672239	CMakeFiles/deepin.dir/flutter/generated_plugin_registrant.cc.o	b203c74dc1c8277e
+10733	11061	1647672239	CMakeFiles/deepin.dir/my_application.cc.o	2b66bbfdf0d6f509
+11061	11152	1647672239	intermediates_do_not_run/deepin	37644e8e75096821
+11152	11284	0	CMakeFiles/install.util	9576205d56e131a8

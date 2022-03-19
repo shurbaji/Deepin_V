@@ -10,22 +10,22 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is Clang, found in "/home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is Clang, found in "/home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/CMakeTmp
+Change Dir: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_db350"
-[1/2] Building CXX object CMakeFiles/cmTC_db350.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_db350
+Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_c8ac5"
+[1/2] Building CXX object CMakeFiles/cmTC_c8ac5.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_c8ac5
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/CMakeTmp
+Change Dir: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_c73fc"
-[1/2] Building CXX object CMakeFiles/cmTC_c73fc.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_c73fc
+Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_f389a"
+[1/2] Building CXX object CMakeFiles/cmTC_f389a.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_f389a
 clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
 Target: x86_64-pc-linux-gnu
 Thread model: posix
@@ -37,16 +37,16 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/snap/flutter/current/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c73fc /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/snap/flutter/111/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib -lblkid -lgcrypt -llzma -lpthread -ldl -lblkid -lgcrypt -llzma -lpthread -ldl CMakeFiles/cmTC_c73fc.dir/CMakeCXXCompilerABI.cpp.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+ "/snap/flutter/current/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f389a /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/snap/flutter/111/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib -lblkid -lgcrypt -llzma -lpthread -ldl -lblkid -lgcrypt -llzma -lpthread -ldl CMakeFiles/cmTC_f389a.dir/CMakeCXXCompilerABI.cpp.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_c73fc"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_c73fc.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_c73fc]
+  ignore line: [Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_f389a"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_f389a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_f389a]
   ignore line: [clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Thread model: posix]
@@ -60,7 +60,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/snap/flutter/current/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c73fc /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/snap/flutter/111/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib -lblkid -lgcrypt -llzma -lpthread -ldl -lblkid -lgcrypt -llzma -lpthread -ldl CMakeFiles/cmTC_c73fc.dir/CMakeCXXCompilerABI.cpp.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/snap/flutter/current/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f389a /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib/ -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/snap/flutter/111/usr/lib/llvm-6.0/bin/../lib -L/lib -L/usr/lib -lblkid -lgcrypt -llzma -lpthread -ldl -lblkid -lgcrypt -llzma -lpthread -ldl CMakeFiles/cmTC_f389a.dir/CMakeCXXCompilerABI.cpp.o -L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8 -L/snap/flutter/current/usr/lib/x86_64-linux-gnu -L/snap/flutter/current/usr/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/snap/flutter/current/usr/bin/ld] ==> ignore
     arg [--hash-style=both] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -69,7 +69,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c73fc] ==> ignore
+    arg [cmTC_f389a] ==> ignore
     arg [/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/snap/flutter/current/usr/bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> ignore
@@ -100,7 +100,7 @@ Parsed CXX implicit link information from above output:
     arg [-llzma] ==> lib [lzma]
     arg [-lpthread] ==> lib [pthread]
     arg [-ldl] ==> lib [dl]
-    arg [CMakeFiles/cmTC_c73fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f389a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-L/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/snap/flutter/current/usr/lib/gcc/x86_64-linux-gnu/8]
     arg [-L/snap/flutter/current/usr/lib/x86_64-linux-gnu] ==> dir [/snap/flutter/current/usr/lib/x86_64-linux-gnu]
     arg [-L/snap/flutter/current/usr/lib] ==> dir [/snap/flutter/current/usr/lib]
@@ -141,11 +141,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/CMakeTmp
+Change Dir: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_79e6f"
-[1/2] Building CXX object CMakeFiles/cmTC_79e6f.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_79e6f
+Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_c5adf"
+[1/2] Building CXX object CMakeFiles/cmTC_c5adf.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_c5adf
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -208,11 +208,11 @@ Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_79e6f"
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/CMakeTmp
+Change Dir: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_3d3a4"
-[1/2] Building CXX object CMakeFiles/cmTC_3d3a4.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_3d3a4
+Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_54cc0"
+[1/2] Building CXX object CMakeFiles/cmTC_54cc0.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_54cc0
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -275,11 +275,11 @@ Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_3d3a4"
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/CMakeTmp
+Change Dir: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_5c720"
-[1/2] Building CXX object CMakeFiles/cmTC_5c720.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_5c720
+Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_18b04"
+[1/2] Building CXX object CMakeFiles/cmTC_18b04.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_18b04
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -342,11 +342,11 @@ Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_5c720"
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/sony/Desktop/Deepin company/deepinapp/deepinapp/build/linux/x64/release/CMakeFiles/CMakeTmp
+Change Dir: /home/sony/Desktop/Deepin company/deepin_V1/build/linux/x64/release/CMakeFiles/CMakeTmp
 
-Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_205a1"
-[1/2] Building CXX object CMakeFiles/cmTC_205a1.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_205a1
+Run Build Command:"/snap/flutter/current/usr/bin/ninja" "cmTC_709cb"
+[1/2] Building CXX object CMakeFiles/cmTC_709cb.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_709cb
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
