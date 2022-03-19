@@ -1,44 +1,16 @@
-# reposync
+# deepinapp
 
-## Build
+A new Flutter project.
 
-```
-GOOS=linux go build -o function .
-```
+## Getting Started
 
-## Package
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-```
-mkdir reposync-cloud-function-0.0.1
-```
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-```
-mv function reposync-cloud-function-0.0.1/
-cp index.js reposync-cloud-function-0.0.1/
-```
-
-```
-zip -r -9 reposync-cloud-function-0.0.1.zip reposync-cloud-function-0.0.1/
-```
-
-## Deploy
-
-```
-wget https://github.com/kelseyhightower/reposync/releases/download/0.0.1/reposync-cloud-function-0.0.1.zip 
-```
-
-```
-unzip reposync-cloud-function-0.0.1.zip
-```
-
-```
-cd reposync-cloud-function-0.0.1
-```
-
-```
-gcloud beta functions deploy reposync \
-  --entry-point F \
-  --stage-bucket ${PROJECT_ID}-pipeline-functions \
-  --trigger-http
-```
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
