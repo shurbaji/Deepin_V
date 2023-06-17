@@ -12,6 +12,9 @@ This project is a starting point for a Flutter application.
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- 
+
+
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 For help getting started with Flutter, view our
@@ -21,10 +24,16 @@ samples, guidance on mobile development, and a full API reference.
 This project help people for download deepin versions
 #only run in linux os
 
-![Screenshot_20220319120601](https://user-images.githubusercontent.com/19245484/159115048-0cb881f4-855d-46e8-871a-cea11f48b002.png)
-![Screenshot_20220319120609](https://user-images.githubusercontent.com/19245484/159115053-7cacb400-efb7-4783-8f08-2b62291731aa.png)
-![Screenshot_20220319120616](https://user-images.githubusercontent.com/19245484/159115056-3bc592be-ec48-40d1-9ad9-bc5ba269915b.png)
-![Screenshot_20220319120624](https://user-images.githubusercontent.com/19245484/159115060-0b5fb384-9f5b-427b-9d7d-e48e9d739152.png)
+- ![photo_2023-06-09_20-21-11](https://github.com/shurbajix/Deepin_V/assets/19245484/85fcd233-65ef-4ab7-b52e-9141feccab10)
+- 
+
+https://github.com/shurbajix/Deepin_V/assets/19245484/27b62293-1905-41ba-a09d-9f8dfd49d9bb
 
 
-https://user-images.githubusercontent.com/19245484/159115094-9607c52c-693b-4d9b-bcbc-8fcf0dfc8477.mp4
+https://github.com/shurbajix/Deepin_V/assets/19245484/71c4eef7-b36c-440c-a708-8eeb9e41ba01
+
+
+
+
+The file will run the test of project 
+https://drive.google.com/file/d/1DN9VeC6b56fghBryEBnBOQ0GC6d11USB/view?usp=sharing
