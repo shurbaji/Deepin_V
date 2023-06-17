@@ -1,9 +1,9 @@
 
 
 
-# deepin Version
+# deepin Version 
 
-A new Flutter project.
+Version 2.0.0
 
 ## Getting Started
 
